@@ -8,7 +8,7 @@ def store_data(articles, filename):
     
     # Ensure that the file is tracked by DVC
     if not os.path.exists('.dvc'):
-        # Only initialize DVC if it hasn't been done in this project directory
+       
         os.system('dvc init')
     
     # Add the file to DVC tracking
